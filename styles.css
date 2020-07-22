@@ -113,11 +113,15 @@ body {
 
 /* Top animation */
 .background {
+  width: 100vw;
+  height: 30vh;
+  position: relative;
   text-align: center;
   background: linear-gradient(125deg, #00103a 0%, #3e5f77 100%);
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .background h1 {
@@ -127,8 +131,6 @@ body {
 .sky-container {
   display: inline;
   position: relative;
-  width: 400px;
-  height: 500px;
   transform: rotateZ(45deg);
 }
 
