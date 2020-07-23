@@ -245,6 +245,7 @@ body {
 /* Characters Section */
 
 .characters {
+  text-align: center;
   width: 90vw;
   margin: 40px 5vw;
   display: flex;
@@ -269,13 +270,25 @@ body {
   position: relative;
   box-shadow: 10px 10px 10px grey;
 }
+#character-box-right {
+  box-shadow: -10px 10px 10px grey;
+}
+
+/* .text-right {
+  display: flex;
+  justify-content: flex-end;
+} */
 
 .character-box h2 {
   font-size: 3rem;
 }
 
-.character-box__img {
+.character-box__img-left {
   float: left;
+}
+
+.character-box__img-right {
+  float: right;
 }
 
 .character-box img {
@@ -288,10 +301,16 @@ body {
   filter: drop-shadow(0 0 0.75rem black);
 }
 
-.btn {
+.btn-right {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.btn-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .character-box a {
