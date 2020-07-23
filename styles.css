@@ -257,8 +257,8 @@ body {
 }
 
 .characters h1 {
-  margin: 10px 0;
-  font-size: 3rem;
+  margin: 10px 0 60px;
+  font-size: 3.5rem;
 }
 
 .character-box {
@@ -273,11 +273,6 @@ body {
 #character-box-right {
   box-shadow: -10px 10px 10px grey;
 }
-
-/* .text-right {
-  display: flex;
-  justify-content: flex-end;
-} */
 
 .character-box h2 {
   font-size: 3rem;
