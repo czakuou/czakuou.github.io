@@ -8,15 +8,16 @@
   <title>Anime</title>
 </head>
 <body>
+<div class="header">
 <header class="nav">
   <h1><a href="#">Your Anime List</a></h1>
   <nav class="nav_menu">
     <a href="#">Anime</a>
     <a href="#">Manga</a>
     <a href="#">Characters</a>
-    <a href="#">Comunity</a>
+    <a href="contact.html">Contact</a>
   </nav>
-  <input class="nav_search" type="search" name="search" value="">
+  <input class="nav_search" type="search" name="search" placeholder="search">
   <div class="navigation">
     <ul>
       <li><img class="nav__profile_image" src="img/profile_img.jpg" alt="profile image">
@@ -29,6 +30,7 @@
     </ul>
   </div>
 </header>
+</div>
 <div class="background">
   <h1>Welcome To Your Anime List</h1>
   <div class="sky-container">
@@ -69,10 +71,10 @@
 <h1 class="recomended-title">Check This</h1>
 <div class="recomended">
   <div class="btns">
-    <button class="btn prev">prev</button>
+    <button id="prev" class="btn prev">prev</button>
   </div>
   <div class="recomended_carusele">
-    <div class="recomended_carusele__item image-1">
+    <div class="recomended_carusele__item image-1  active">
       <a href="#">
         <h2>Konosuba</h2>
         <p>Description</p>
@@ -96,12 +98,12 @@
   </div>
 </div>
 <footer class="footer">
-  <a href="#"><img class="contact" src="img/contact.png" alt="mail"></a>
+  <a class="contact" href="contact.html"><img class="contact" src="img/contact.png" alt="mail"></a>
   <div class="social-media">
-      <a href="#"><img src="#" alt="Facebook"></a>
-      <a href="#"><img src="#" alt="Twitter"></a>
-      <a href="#"><img src="#" alt="Instagram"></a>
-      <a href="#"><img src="#" alt="Discord"></a>
+      <a class="social-media__item" href="#"><img src="#" alt="Facebook"></a>
+      <a class="social-media__item" href="#"><img src="#" alt="Twitter"></a>
+      <a class="social-media__item" href="#"><img src="#" alt="Instagram"></a>
+      <a class="social-media__item" href="#"><img src="#" alt="Discord"></a>
   </div>
 </footer>
 <script src="scripts.js"></script>
