@@ -56,11 +56,11 @@ body {
 }
 
 .nav_search {
-  position: absolute;
-  left: 85%;
+  margin: 10px;
   border: 1px grey solid;
   border-radius: 3px;
 }
+
 
 .nav__profile_image {
   width: 2vw;
@@ -289,7 +289,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px 0;
 }
 .characters h1 {
   margin: 10px 0 60px;
@@ -301,16 +300,32 @@ body {
   height: 50vh;
   margin-top: 30px;
   padding: 0;
-  font-size: 2rem;
+  font-size: 2vw;
   position: relative;
   box-shadow: 10px 10px 10px grey;
+  overflow: visible;
 }
 #character-box-right {
   box-shadow: -10px 10px 10px grey;
 }
+.fullscreen {
+  height: 30px;
+  width: 30px;
+  background-image: url(img/enter-full-screen.png);
+  background-size: contain;
+  cursor: pointer;
+  margin: 5px;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+
 
 .character-box h2 {
-  font-size: 3rem;
+  font-size: 3vw;
 }
 
 .character-box__img-left {
