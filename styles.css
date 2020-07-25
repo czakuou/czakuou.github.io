@@ -22,9 +22,11 @@ body {
 /* Header */
 .header-animation {
   transition: 0.5s ease;
+  display: inline-block;
 }
+.header-animation:hover:active,
 .header-animation:hover {
-  font-size: 1.1em;
+  transform: scale(1.2);
 }
 
 .nav {
