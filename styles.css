@@ -474,7 +474,7 @@ body {
   flex-direction: column;
   opacity: 0;
 
-  transition: opacity 1s ease-out;
+  transition: opacity 1s ease-in-out;
 }
 .recomended_carusele__item a:hover {
   opacity: 1;
