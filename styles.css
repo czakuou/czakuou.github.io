@@ -20,6 +20,12 @@ body {
   position: relative;
 }
 /* Header */
+.header-animation {
+  transition: 0.5s ease;
+}
+.header-animation:hover {
+  font-size: 1.1em;
+}
 
 .nav {
   margin: 20px 10vw 0 10vw;
@@ -115,6 +121,30 @@ body {
   clear: both;
   width: 100%;
 }
+
+.doropdown__link {
+  height: 30px;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.doropdown__link::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: transform .5s ease;
+}
+.doropdown__link:hover::after {
+  transform: translateX(100%);
+}
+
 /* Header end */
 
 /* Top animation */
