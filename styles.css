@@ -14,9 +14,9 @@ a {
 }
 
 body {
+  margin: 0 auto;
   width: 100%;
   padding: 0;
-  margin: 0;
   position: relative;
 }
 /* Header */
@@ -315,12 +315,18 @@ body {
   background-size: contain;
   cursor: pointer;
   margin: 5px;
+  display: inline-block;
+
+  transition: transform .25s ease-in-out;
 }
 .right {
   float: right;
 }
 .left {
   float: left;
+}
+.fullscreen:hover {
+  transform: scale(1.5);
 }
 
 
@@ -543,11 +549,10 @@ body {
 /* Footer */
 
 .footer {
-  margin: 100px 100px 50px;
+  margin: 50px auto;
+  padding: 0;
   width: 90vw;
   height: 10vh;
-  padding: 0;
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
