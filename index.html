@@ -5,110 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
-  <title>Anime</title>
+  <title>portfolio</title>
 </head>
 <body>
-<div class="header">
-<header class="nav">
-  <h1><a class="header-animation" href="#">Your Anime List</a></h1>
-  <nav class="nav_menu">
-    <a class="header-animation" href="#">Anime</a>
-    <a class="header-animation" href="#">Manga</a>
-    <a class="header-animation" href="#">Characters</a>
-    <a class="header-animation" href="contact.html">Contact</a>
+<header class="header">
+  <div class="header-menu">
+  </div>
+  <nav class="header-item">
+    <a href="#" class="header__links">About</a>
+    <a href="#" class="header__links">Work</a>
+    <a href="#" class="header__links">Contact</a>
   </nav>
-  <input class="nav_search" type="search" name="search" placeholder="search">
-  <div class="navigation">
-    <ul>
-      <li><img class="nav__profile_image" src="img/profile_img.jpg" alt="profile image">
-        <ul class="dropdown">
-          <li class="doropdown__link"><a href="#">Profile</a></li>
-          <li class="doropdown__link"><a href="#">My anime</a></li>
-          <li class="doropdown__link"><a href="#">My manga</a></li>
-          <li class="doropdown__link"><a href="#">Custom list</a></li>
-        </ul></li>
-    </ul>
-  </div>
 </header>
-</div>
-<div class="background">
-  <h1>Welcome To Your Anime List</h1>
-  <div class="sky-container">
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
+<section class="about-me">
+  <h1 class="about-me__h1">Hey I am Emil</h1>
+  <p>a web developer</p>
+</section>
+<section class="projects">
+  <h1>These are some of my projects</h1>
+  <div class="projects__boxes">
+    <a class="projects__box " href="https://czakuou.github.io/" target="_blank">
+      <img src="img/anime_list.png" alt="focia" class="projects__box-img">
+      <spam class="projects__box-title"><h2>nazwa</h2></spam>
+    </a>
+    <a class="projects__box" href="https://czakuou.github.io/" target="_blank">
+      <img src="img/anime_list.png" alt="focia" class="projects__box-img">
+      <spam class="projects__box-title"><h2>nazwa</h2></spam>
+    </a>
+    <a class="projects__box" href="https://czakuou.github.io/" target="_blank">
+      <img src="img/anime_list.png" alt="focia" class="projects__box-img">
+      <spam class="projects__box-title"><h2>nazwa</h2></spam>
+    </a>
   </div>
-</div>
-<div class="characters">
-  <h1>Top 3 Waifu Of The Week</h1>
-    <div class="character-box">
-      <div class="fullscreen right"></div>
-      <div class="character-box__img-left">
-        <img src="img/aki_character.jpg" alt="character-photo">
-      </div>
-      <h2 class="text-left">Character Name</h2>
-      <p class="text-left">Character Description</p>
-      <span class="btn-right"><a href="#">Read More</a><span>
-    </div>
-    <div class="character-box" id="character-box-right">
-      <div class="fullscreen left"></div>
-      <div class="character-box__img-right">
-        <img src="img/aki_character.jpg" alt="character-photo">
-      </div>
-      <h2 class="text-right">Character Name</h2>
-      <p class="text-right">Character Description</p>
-      <span class="btn-left"><a href="#">Read More</a><span>
-    </div>
-    <div class="character-box">
-      <div class="fullscreen right"></div>
-      <div class="character-box__img-left">
-        <img src="img/aki_character.jpg" alt="character-photo">
-      </div>
-      <h2 class="text-left">Character Name</h2>
-      <p class="text-left">Character Description</p>
-      <span class="btn-right"><a href="#">Read More</a></span>
-    </div>
-</div>
-<h1 class="recomended-title">Check This</h1>
-<div class="recomended">
-  <div class="btns">
-    <button id="prev" class="btn prev header-animation"><</button>
+<a href="#" class="button">Show all <spam class="arrow"></spam></a>
+</section>
+<section class="contact">
+  <div>
+    <h1>Let's work together</h1>
+    <p>Where to find me?</p>
   </div>
-  <div class="recomended_carusele">
-    <div id="image-1" class="recomended_carusele__item  active">
-      <a href="#">
-        <h2>Konosuba</h2>
-        <p>Description</p>
-      </a>
-    </div>
-    <div id="image-2" class="recomended_carusele__item">
-      <a href="#">
-        <h2>My Teen Romantic Comedy</h2>
-        <p>Description</p>
-      </a>
-    </div>
-    <div id="image-3" class="recomended_carusele__item image-3">
-      <a href="#">
-        <h2>Demon Slayer</h2>
-        <p>Description</p>
-      </a>
-    </div>
+  <div class="contact__social">
+    <a href="#" class="contact__social-img"><img src="img/facebook.png" alt="focia"> Facebook</a>
+    <a href="#" class="contact__social-img"><img src="img/github.png" alt="focia"> GitHub</a>
+    <a href="#" class="contact__social-img"><img src="img/mail.png" alt="focia"> Send a mail</a>
   </div>
-  <div class="btns">
-    <button class="btn next header-animation">></button>
-  </div>
-</div>
-<footer class="footer">
-  <a class="contact" href="contact.html"><img class="contact" src="img/contact.png" alt="mail"></a>
-  <div class="social-media">
-      <a class="social-media__item header-animation" href="#"><img class="social-media__item" src="img/facebook.png" alt="Facebook"></a>
-      <a class="social-media__item header-animation" href="#"><img class="social-media__item" src="img/twitter.png" alt="Twitter"></a>
-      <a class="social-media__item header-animation" href="#"><img class="social-media__item" src="img/instagram.png" alt="Instagram"></a>
-      <a class="social-media__item header-animation" href="#"><img class="social-media__item" src="img/discord.png" alt="Discord"></a>
-  </div>
-</footer>
-<script src="scripts.js"></script>
+</section>
 </body>
 </html>
