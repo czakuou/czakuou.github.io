@@ -4,51 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tip Calculator</title>
   <link rel="stylesheet" href="styles.css">
-  <title>portfolio</title>
 </head>
 <body>
-<header class="header">
-  <div class="header-menu">
+  <div id="container">
+  <h1>Tip Calculator</h1>
+  <div id="calculator">
+
+
+    <form>
+      <p>How much was your bill?
+        <p>
+          $ <input id="billamt" type="text" placeholder="Bill Amount">
+
+          <p>How was your service?
+            <p>
+              <select id="serviceQual">
+            <option disabled selected value="0">-- Choose an Option --</option>
+            <option value="0.3">30&#37; &#45; Outstanding</option>
+            <option value="0.2">20&#37; &#45; Good</option>
+            <option value="0.15">15&#37; &#45; It was OK</option>
+            <option value="0.1">10&#37; &#45; Bad</option>
+            <option value="0.05">5&#37; &#45; Terrible</option>
+        </select>
+
+    </form>
+    <p>How many people are sharing the bill?</p>
+    <input id="peopleamt" type="text" placeholder="Number of People"> people
+    <button type="button" id="calculate">Calculate!</button>
+
   </div>
-  <nav class="header-item">
-    <a href="#" class="header__links">About</a>
-    <a href="#" class="header__links">Work</a>
-    <a href="#" class="header__links">Contact</a>
-  </nav>
-</header>
-<section class="about-me">
-  <h1 class="about-me__h1">Hey I am Emil</h1>
-  <p>a web developer</p>
-</section>
-<section class="projects">
-  <h1>These are some of my projects</h1>
-  <div class="projects__boxes">
-    <a class="projects__box " href="https://czakuou.github.io/" target="_blank">
-      <img src="img/anime_list.png" alt="focia" class="projects__box-img">
-      <spam class="projects__box-title"><h2>nazwa</h2></spam>
-    </a>
-    <a class="projects__box" href="https://czakuou.github.io/" target="_blank">
-      <img src="img/anime_list.png" alt="focia" class="projects__box-img">
-      <spam class="projects__box-title"><h2>nazwa</h2></spam>
-    </a>
-    <a class="projects__box" href="https://czakuou.github.io/" target="_blank">
-      <img src="img/anime_list.png" alt="focia" class="projects__box-img">
-      <spam class="projects__box-title"><h2>nazwa</h2></spam>
-    </a>
+  <!--calculator end-->
+  <div id="totalTip">
+    <sup>$</sup><span id="tip">0.00</span>
+    <small id="each">each</small>
   </div>
-<a href="#" class="button">Show all <spam class="arrow"></spam></a>
-</section>
-<section class="contact">
-  <div>
-    <h1>Let's work together</h1>
-    <p>Where to find me?</p>
-  </div>
-  <div class="contact__social">
-    <a href="#" class="contact__social-img"><img src="img/facebook.png" alt="focia"> Facebook</a>
-    <a href="#" class="contact__social-img"><img src="img/github.png" alt="focia"> GitHub</a>
-    <a href="#" class="contact__social-img"><img src="img/mail.png" alt="focia"> Send a mail</a>
-  </div>
-</section>
+  <!--totalTip end-->
+
+</div>
+<!--container end-->
+
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
