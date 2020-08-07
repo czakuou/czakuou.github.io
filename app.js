@@ -9,7 +9,7 @@ const calculateTip = () => {
   const totalTip = (billamt * serviceQual) / peopleamt
 
   document.getElementById('totalTip').style.display = 'block'
-  document.getElementById('tip').innerHTML = totalTip
+  document.getElementById('tip').innerHTML = totalTip.toFixed(2)
 }
 document.getElementById('totalTip').style.display = 'none'
 document.getElementById('each').style.display = 'none'
